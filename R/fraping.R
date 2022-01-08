@@ -1,3 +1,7 @@
+source("utilitz.R")
+source("filitz.R")
+source("plotitz.R")
+
 newDataSet <- function(bleach){
   fmin<-1-bleach
   varN<-newCount()
